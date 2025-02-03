@@ -1,0 +1,45 @@
+
+.headerContainer {
+  width: 100%;
+  height: 60px;
+  background-color: #e0f7ff;
+  color: #004d60;
+  border-bottom: 2px solid #b0e0e6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004d60;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navList li a {
+  color: #004d60;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.navList li a:hover {
+  color: #008c9e;
+  text-decoration: underline;
+}
+
+
