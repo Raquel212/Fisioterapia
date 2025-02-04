@@ -1,18 +1,19 @@
-import Header from "./components/Header";
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Banner from './components/banner/Banner';
 import Carousel from "./components/Carousel";
 
-import './App.css';
+
 
 function App() {
   return (
-    <div className= "appContainer">
-      <Header />
-      <Hero />
+    <>
+      <Navbar />
+      <Banner />
       <Carousel />
       <Footer />
-    </div>
+    </>
   );
 }
 
