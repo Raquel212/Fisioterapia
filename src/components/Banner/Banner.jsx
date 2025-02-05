@@ -17,8 +17,7 @@ const Banner = () => {
                 </div>
 
                 <div className="banner-buttons">
-                    <button className="banner-appointment-button">Solicitar consulta</button>
-                    <button className="banner-learn-button">Saiba mais</button>
+                    <button className="banner-appointment-button">Saiba mais</button>
                 </div>
 
             </div>

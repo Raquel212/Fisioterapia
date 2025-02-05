@@ -29,6 +29,7 @@ function Carousel() {
     return (
         <section className={styles.carouselSection}>
             <h2 className={styles.informacaoCarousel}>Transforme seu Corpo com Fisioterapia</h2>
+            <h3>(Serviços)</h3>
             <Slider {...settings} className={styles.slider}>
                 {items.map((item, index) => (
                     <div key={index} className={styles.card}>

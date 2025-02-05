@@ -5,7 +5,7 @@ import informacoes2 from "../../components/images/exemplo2.jpg"
 const Informacoes = () => {
   return (
     <div className="informacoes-container">
-        <h3>Informações</h3>
+        <h3>Saiba mais</h3>
 
         <div className="informacoes-wrapper">
 
@@ -17,7 +17,6 @@ const Informacoes = () => {
                     <p>Texto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativo</p>
                 </div>
                 <div className="informacoes-detail-button">
-                    <button>Saiba Mais</button>
                 </div>
             </div>
 

@@ -1,0 +1,43 @@
+
+.App>h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+.Depoimentos {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    display: flex;
+}
+
+.item{
+    min-height: 200px;
+    min-width: 400px;
+    padding: 14px;
+    background: linear-gradient(to bottom, #a4c1f4, #fefefe);
+}
+
+.item img{
+    width: 100%;
+    height: 98%;
+    border-radius: 15px;
+    pointer-events: none;
+  
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
