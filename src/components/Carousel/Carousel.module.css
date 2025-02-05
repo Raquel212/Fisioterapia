@@ -1,7 +1,7 @@
 .carouselSection {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(to bottom, #A3D9A5, #F4AAB9);
+    background: linear-gradient(to bottom, #a4c1f4, #fefefe);
     color: #444;
 }
 
@@ -13,21 +13,23 @@
 .slider {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 10px;
+    
 }
 
 .card {
     background: white;
-    width: 120px;
-    min-height: 260px;
+    width: 150px;
+    min-height: 250px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
     text-align: center;
     transition: transform 0.3s;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto; 
+
 }
 
 .card:hover {

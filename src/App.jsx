@@ -1,8 +1,9 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Footer from "./components/Footer";
 import Banner from './components/banner/Banner';
 import Carousel from "./components/Carousel";
+import Informacoes from './components/Informacoes/Informacoes';
+import Footer from "./components/Footer";
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Banner />
       <Carousel />
+      <Informacoes />
       <Footer />
     </>
   );
