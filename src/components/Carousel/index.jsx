@@ -32,10 +32,12 @@ function Carousel() {
             <h3>(Serviços)</h3>
             <Slider {...settings} className={styles.slider}>
                 {items.map((item, index) => (
-                    <div key={index} className={styles.card}>
-                        <div className={styles.icon}>{item.icon}</div>
-                        <h3 className={styles.tituloCarousel}>{item.title}</h3>
-                        <p className={styles.descricaoCarousel}>{item.description}</p>
+                    <div key={index} className={styles.cardWrapper}>
+                        <div className={styles.card}>
+                            <div className={styles.icon}>{item.icon}</div>
+                            <h3 className={styles.tituloCarousel}>{item.title}</h3>
+                            <p className={styles.descricaoCarousel}>{item.description}</p>
+                        </div>
                     </div>
                 ))}
             </Slider>

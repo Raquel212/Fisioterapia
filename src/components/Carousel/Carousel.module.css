@@ -14,13 +14,16 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 10px;
-    
+}
+
+.cardWrapper {
+    padding: 10px; 
 }
 
 .card {
     background: white;
-    width: 150px;
-    min-height: 250px;
+    width: 350px;
+    height: 260px;
     padding: 20px;
     border-radius: 35px;
     text-align: center;
@@ -29,7 +32,8 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto; 
-
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.1);
+    border: solid 1px #ccc;
 }
 
 .card:hover {
@@ -51,5 +55,3 @@
     font-size: 1rem;
     color: #666;
 }
-
-
