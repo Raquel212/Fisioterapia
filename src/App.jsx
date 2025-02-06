@@ -4,6 +4,7 @@ import Banner from './components/banner/Banner';
 import Carousel from "./components/Carousel";
 import Informacoes from './components/Informacoes/Informacoes';
 import Depoimentos from './components/Depoimentos/Depoimentos';
+import Localidade from './components/Localidade/Localidade';
 import Footer from "./components/Footer";
 
 
@@ -16,6 +17,7 @@ function App() {
       <Carousel />
       <Informacoes />
       <Depoimentos />
+      <Localidade />
       <Footer />
     </>
   );

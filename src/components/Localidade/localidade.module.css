@@ -1,0 +1,80 @@
+.container {
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    border: solid 1px #ccc;
+    background: linear-gradient(to bottom, #D0E1FF, #FEFEFE);
+}
+
+.titulo {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.localidadeContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 520px;
+    height: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+    align-self: initial;
+    margin-left: 30px;
+}
+
+.card iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.localidadeContainer>h3 {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.localidadeContainer>p {
+    font-size: 14px;
+    color: #555;
+}
+
+.whatsappButton {
+    display: flex;
+    width: 380px;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 8px;
+    background-color: #174EB2;
+    color: #FEFEFE;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    transition: color 0.3s;
+}
+
+
+
