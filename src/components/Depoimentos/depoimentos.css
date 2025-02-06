@@ -2,30 +2,55 @@
 .App>h3 {
     text-align: center;
     font-size: 32px;
-    font-weight: normal;
-    margin-bottom: 10px;
-    padding: 50px;
+    font-weight: bold;
+    padding: 30px;
+    color: #333;
+    margin-top: 50px;
+    border-radius: 30px;
+    /* box-shadow: 0 4px 8px rgba(194, 17, 17, 0.1); */
+    width: 500px;
+    margin: 0 auto;
+
 }
 
-.Depoimentos {
+.App{
+    /* border: solid 2px red; */
+    margin-top: 50px;
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+}
+
+span{
+    color: #174EB2;
+
+}
+
+/* .Depoimentos {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+
+    
+
+} */
 
 .inner{
     display: flex;
+    gap: 20px;
+    padding: 50px;
 }
 
 .item{
-    min-height: 200px;
-    min-width: 400px;
-    padding: 14px;
-    background: linear-gradient(to bottom, #a4c1f4, #fefefe);
+    min-height: 250px;
+    min-width: 450px;
+    padding: 16px;
+    background:  #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
 }
 
 .item img{
@@ -33,11 +58,11 @@
     height: 98%;
     border-radius: 15px;
     pointer-events: none;
-  
 }
 
 .carousel {
     cursor: grab;
     overflow: hidden;
+    padding: 20px 0;
 }
 

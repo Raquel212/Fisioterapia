@@ -19,7 +19,7 @@ function Depoimentos() {
 
     return (
         <div className="App">
-        <h3>Veja o que dizem meus pacientes</h3>
+        <h3><span>Depoimentos</span> dos meus <span>Pacientes</span></h3>
   
         <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
           <motion.div
