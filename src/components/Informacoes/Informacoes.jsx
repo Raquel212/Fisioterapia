@@ -1,7 +1,7 @@
 import "./informacoes.css"
 import informacoes1 from "../../components/images/exemplo1.jpg"
 import informacoes2 from "../../components/images/exemplo2.jpg"
-
+import { FaWhatsapp } from "react-icons/fa";
 const Informacoes = () => {
   return (
     <div className="informacoes-container">
@@ -17,6 +17,9 @@ const Informacoes = () => {
                     <p>Texto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativoTexto ilustrativo</p>
                 </div>
                 <div className="informacoes-detail-button">
+                    <a href="https://wa.me/seunumerodetelefone" target="_blank" rel="noopener noreferrer" className="primaryButton">
+                        <FaWhatsapp /> Agende sua Consulta
+                    </a>
                 </div>
             </div>
 

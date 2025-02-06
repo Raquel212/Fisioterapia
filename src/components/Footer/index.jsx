@@ -10,11 +10,11 @@ function Footer() {
                     <p>Seu bem-estar em primeiro lugar, com um atendimento profissional e humanizado.</p>
                 </div>
 
-                <div className={styles.footerCTA}>
+                {/* <div className={styles.footerCTA}>
                     <a href="https://wa.me/seunumerodetelefone" target="_blank" rel="noopener noreferrer" className={styles.primaryButton}>
                         <FaWhatsapp /> Agende sua Consulta
                     </a>
-                </div>
+                </div> */}
             </div>
 
             <div className={styles.footerBottom}>

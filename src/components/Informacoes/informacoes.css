@@ -57,3 +57,17 @@
     bottom: 120px;
     z-index: -1;
 }
+
+.primaryButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #174EB2; 
+    color: #FFF;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 250px;
+}
